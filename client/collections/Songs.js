@@ -6,7 +6,7 @@ var Songs = Backbone.Collection.extend({
   parse: function(response){
   	return response.results;
   },
-
+// Backbone Collection Initialization in View: http://stackoverflow.com/questions/31362695/backbone-collection-initialization-in-view
   initialize: function(){
   	this.fetch();
   }

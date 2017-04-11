@@ -4,6 +4,7 @@ var LibraryView = Backbone.View.extend({
   tagName: 'table',
   collection: Songs,
 
+// Backbone Collection Initialization in View: http://stackoverflow.com/questions/31362695/backbone-collection-initialization-in-view
   initialize: function() {
     var that = this;
     this.collection.fetch({
